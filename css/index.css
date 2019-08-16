@@ -169,11 +169,18 @@ img {
   margin: 0 auto;
 }
 header {
+  border-bottom: 2px dashed silver;
+}
+header section {
   display: flex;
-  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+  padding-bottom: 3rem;
 }
 header div {
   margin-top: 3%;
+  justify-content: flex-start;
+  width: 30%;
 }
 header nav {
   display: flex;
@@ -253,4 +260,18 @@ header a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick div {
+  display: flex;
+  flex-direction: column;
+}
+.home .content-pick .btn {
+  color: #FFFFFF;
+  background-color: #17A2B8;
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  justify-content: center;
+  text-align: center;
 }
