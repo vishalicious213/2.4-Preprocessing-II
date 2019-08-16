@@ -298,6 +298,11 @@ header a {
 .home .content-destination img {
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .home .content-destination {
+    width: 90%;
+  }
+}
 .home .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
@@ -321,4 +326,17 @@ header a {
   font-size: 1.5rem;
   justify-content: center;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .content-pick .destination {
+    width: auto;
+    max-width: 75%;
+  }
+  .home .content-pick .btn {
+    width: 100%;
+  }
 }
